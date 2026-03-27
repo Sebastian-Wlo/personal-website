@@ -4,7 +4,7 @@
     "heroImage": "/images/task-timer.webp",
     "heroAlt": "",
     "repoLink": "https://github.com/Sebastian-Wlo/task-timer",
-    "deployedLink": "https://github.com/Sebastian-Wlo/task-timer/deployments/github-pages",
+    "deployedLink": "https://sebastian-wlo.github.io/task-timer/",
     "description": "",
     "tags": ["Personal Project"]
   },
@@ -48,8 +48,8 @@
     "title": "This Website!",
     "heroImage": "/images/this.webp",
     "heroAlt": "",
-    "repoLink": "https://github.com/nhcarrigan-spring-2026-cohort/scarlet-hydrangea",
-    "deployedLink": "",
+    "repoLink": "https://github.com/Sebastian-Wlo/personal-website",
+    "deployedLink": "https://sebastian-wlo-dev.netlify.app/",
     "description": "",
     "tags": ["Personal Project"]
   }
