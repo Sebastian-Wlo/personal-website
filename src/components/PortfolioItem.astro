@@ -1,0 +1,33 @@
+---
+import DecoratedLink from "./DecoratedLink.astro";
+const { title, repoLink, deployedLink, heroImage, heroAlt, tags } = Astro.props;
+---
+
+<li
+  class="rounded-2xl text-white flex flex-col px-4 py-2 bg-card hover:backdrop-saturate-200 drop-shadow-lg duration-150 ease-in"
+>
+  <h3 class="text-xl font-bold pb-2">{title}</h3>
+  <img src={heroImage} alt={heroAlt} width="818" height="459" class="m-auto" />
+
+  <div class="flex flex-col px-2 py-2 gap-1">
+    <div class="flex flex-row flex-wrap gap-1 pb-1 text-xs">
+      {
+        tags.map((tag: string) => (
+          <span class="py-0.5 px-2 rounded-full bg-amber-500 text-black font-bold text-nowrap">
+            {tag}
+          </span>
+        ))
+      }
+    </div>
+    <DecoratedLink
+      link={repoLink}
+      linkText="GitHub Repository"
+      linkType="external"
+    />
+    <DecoratedLink
+      link={deployedLink}
+      linkText="Deployed Project"
+      linkType="deployment"
+    />
+  </div>
+</li>

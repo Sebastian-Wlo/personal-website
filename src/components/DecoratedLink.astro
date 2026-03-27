@@ -1,0 +1,26 @@
+---
+import { GitHub, Globe, Linkedin, Mail, Send, ExternalLink } from "astro-feather-icons";
+
+const {link, linkText, linkType} = Astro.props;
+---
+<span class="flex flex-row items-baseline gap-2">
+  {link.includes("github") && linkType === "external" && <GitHub stroke="white" size=".8rem" class="inline" /> }
+  {link.includes("linkedin") && <Linkedin stroke="currentColor" size=".8rem" class="inline" />}
+  {link.includes("mailto") && <Mail stroke="currentColor" size=".8rem" class="inline" />}
+  {linkType === "deployment" && <Globe stroke="currentColor" size=".8rem" class="inline" />}
+  {
+  link.length > 0 ? (
+      <a href={link} class="underline flex flex-row gap-2 items-baseline">
+        {linkText}
+        {(linkType === "external" || linkType === "deployment") && <ExternalLink stroke="currentColor" size=".8rem" class="inline" />}
+        {linkType === "email" && <Send stroke="currentColor" size=".8rem" class="inline" />}
+      </a>
+    ) : (
+      <a class="flex flex-row gap-2 items-baseline">
+        No Link
+        {linkType === "external" && <ExternalLink stroke="currentColor" size=".8rem" class="inline" />}
+        {linkType === "email" && <Send stroke="currentColor" size=".8rem" class="inline" />}
+      </a>
+    )
+  }
+</span>

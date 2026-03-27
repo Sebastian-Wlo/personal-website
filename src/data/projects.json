@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Task Timer",
+    "heroImage": "src/assets/images/task-timer.webp",
+    "heroAlt": "",
+    "repoLink": "https://github.com/Sebastian-Wlo/task-timer",
+    "deployedLink": "https://github.com/Sebastian-Wlo/task-timer/deployments/github-pages",
+    "description": "",
+    "tags": ["Personal Project"]
+  },
+  {
+    "title": "Cave Flight",
+    "heroImage": "src/assets/images/cave-flight.webp",
+    "heroAlt": "",
+    "repoLink": "https://github.com/Sebastian-Wlo/cave_flight",
+    "deployedLink": "https://sebastian-wlo.itch.io/cave-flight",
+    "description": "",
+    "tags": ["Personal Project", "GameJam"]
+  },
+  {
+    "title": "Podcast Player",
+    "heroImage": "src/assets/images/podcast-player.webp",
+    "heroAlt": "",
+    "repoLink": "https://github.com/Sebastian-Wlo/cs50x-podcast-player",
+    "deployedLink": "",
+    "description": "",
+    "tags": ["Personal Project", "Certification"]
+  },
+  {
+    "title": "IdeaForge",
+    "heroImage": "src/assets/images/ideaforge.webp",
+    "heroAlt": "",
+    "repoLink": "https://github.com/nhcarrigan-2025-hackathon/mint-syntax",
+    "deployedLink": "",
+    "description": "",
+    "tags": ["Team Project", "Frontend"]
+  },
+  {
+    "title": "Community Tool Library",
+    "heroImage": "src/assets/images/tool-library.webp",
+    "heroAlt": "",
+    "repoLink": "https://github.com/nhcarrigan-spring-2026-cohort/scarlet-hydrangea",
+    "deployedLink": "",
+    "description": "",
+    "tags": ["Team Project", "Backend"]
+  },
+  {
+    "title": "This Website!",
+    "heroImage": "src/assets/images/this.webp",
+    "heroAlt": "",
+    "repoLink": "https://github.com/nhcarrigan-spring-2026-cohort/scarlet-hydrangea",
+    "deployedLink": "",
+    "description": "",
+    "tags": ["Personal Project"]
+  }
+]
