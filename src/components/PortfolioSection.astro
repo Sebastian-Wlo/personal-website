@@ -9,7 +9,7 @@ import projects from "../data/projects.json";
   </h2>
 
   <ul
-    class="grid md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-2 auto-rows-auto"
+    class="grid md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-4 auto-rows-auto"
   >
     {projects.map((project: any) => <PortfolioItem {...project} />)}
   </ul>
