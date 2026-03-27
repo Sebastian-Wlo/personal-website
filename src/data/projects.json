@@ -1,7 +1,7 @@
 [
   {
     "title": "Task Timer",
-    "heroImage": "src/assets/images/task-timer.webp",
+    "heroImage": "/images/task-timer.webp",
     "heroAlt": "",
     "repoLink": "https://github.com/Sebastian-Wlo/task-timer",
     "deployedLink": "https://github.com/Sebastian-Wlo/task-timer/deployments/github-pages",
@@ -10,7 +10,7 @@
   },
   {
     "title": "Cave Flight",
-    "heroImage": "src/assets/images/cave-flight.webp",
+    "heroImage": "/images/cave-flight.webp",
     "heroAlt": "",
     "repoLink": "https://github.com/Sebastian-Wlo/cave_flight",
     "deployedLink": "https://sebastian-wlo.itch.io/cave-flight",
@@ -19,7 +19,7 @@
   },
   {
     "title": "Podcast Player",
-    "heroImage": "src/assets/images/podcast-player.webp",
+    "heroImage": "/images/podcast-player.webp",
     "heroAlt": "",
     "repoLink": "https://github.com/Sebastian-Wlo/cs50x-podcast-player",
     "deployedLink": "",
@@ -28,7 +28,7 @@
   },
   {
     "title": "IdeaForge",
-    "heroImage": "src/assets/images/ideaforge.webp",
+    "heroImage": "/images/ideaforge.webp",
     "heroAlt": "",
     "repoLink": "https://github.com/nhcarrigan-2025-hackathon/mint-syntax",
     "deployedLink": "",
@@ -37,7 +37,7 @@
   },
   {
     "title": "Community Tool Library",
-    "heroImage": "src/assets/images/tool-library.webp",
+    "heroImage": "/images/tool-library.webp",
     "heroAlt": "",
     "repoLink": "https://github.com/nhcarrigan-spring-2026-cohort/scarlet-hydrangea",
     "deployedLink": "",
@@ -46,7 +46,7 @@
   },
   {
     "title": "This Website!",
-    "heroImage": "src/assets/images/this.webp",
+    "heroImage": "/images/this.webp",
     "heroAlt": "",
     "repoLink": "https://github.com/nhcarrigan-spring-2026-cohort/scarlet-hydrangea",
     "deployedLink": "",
