@@ -36,7 +36,7 @@ html {
 @property --angle {
   syntax: "<angle>";
   initial-value: 30deg;
-  inherits: false;
+  inherits: false;  
 }
 
 .link-underline {
@@ -50,7 +50,7 @@ a:hover+.link-underline {
 }
 
 .bg-dark-blue {
-  background-color: var(--background-heading);
+  background-color: var(--bg-card);
 }
 
 .bg-card {
@@ -60,7 +60,7 @@ a:hover+.link-underline {
 .bg-gradient {
   background-image: linear-gradient(
     var(--angle),
-    var(--gradient-1),
+    var(--background-heading),
     var(--gradient-2)
   );
   animation: bg-rotation 14s infinite alternate;
