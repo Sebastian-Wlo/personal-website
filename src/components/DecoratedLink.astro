@@ -10,13 +10,13 @@ const {link, linkText, linkType} = Astro.props;
   {linkType === "deployment" && <Globe stroke="currentColor" size=".8rem" class="inline" />}
   {
   link.length > 0 ? (
-      <a href={link} class="underline flex flex-row gap-2 items-baseline">
+      <a href={link} class="underline flex flex-row gap-2 items-baseline" target="_blank">
         {linkText}
         {(linkType === "external" || linkType === "deployment") && <ExternalLink stroke="currentColor" size=".8rem" class="inline" />}
         {linkType === "email" && <Send stroke="currentColor" size=".8rem" class="inline" />}
       </a>
     ) : (
-      <a class="flex flex-row gap-2 items-baseline">
+      <a class="flex flex-row gap-2 items-baseline" target="_blank">
         No Link
         {linkType === "external" && <ExternalLink stroke="currentColor" size=".8rem" class="inline" />}
         {linkType === "email" && <Send stroke="currentColor" size=".8rem" class="inline" />}
